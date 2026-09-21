@@ -21,6 +21,6 @@ describe("Backend API", () => {
   });
 
   test("NODE_ENV is set to test", () => {
-    expect(process.env.NODE_ENV).toBe("wrong");
+    expect(process.env.NODE_ENV).toBe("test");
   });
 });
